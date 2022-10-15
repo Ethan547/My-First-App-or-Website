@@ -1,0 +1,44 @@
+/* selector {
+    property: value;
+} */
+
+h1{
+    background-color:brown ;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+body{
+  background-color: rgb(190, 133, 87) ;  
+}
+.homepage_div{
+    align-items: center;
+    text-align: center;
+}
+
+#main_container{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content: center;
+}
+
+#heading_container{
+    display: block;
+    width:650px;
+}
+
+#image_and_description{
+    height: 300px;
+    display: flex;
+    justify-content: baseline;
+}
+
+#tacos_image{
+    border-radius: 10px;
+    width: 450px;
+    height: 300px;
+}
